@@ -10,7 +10,7 @@ public class ScoreShower1 : MonoBehaviour
     public TMP_Text scoretext;
     public SMovement a;
     public GameObject ss;
-    int score = 0;
+    int score;
     int highscore;
  
 
@@ -42,7 +42,7 @@ public class ScoreShower1 : MonoBehaviour
         }
        
         
-        if(score==100)
+        if(score>=10)
             SceneManager.LoadScene("Scene2");
     }
 

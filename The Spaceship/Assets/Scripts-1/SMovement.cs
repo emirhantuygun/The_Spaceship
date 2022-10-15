@@ -88,33 +88,36 @@ public class SMovement : MonoBehaviour
 
 
 
-       /*
 
-
-        if (transform.position.y > oldY)
+        if (Input.touchCount > 0)
         {
-            anim.SetTrigger("up");
-            oldY = transform.position.y;
-        }
 
-        if (transform.position.y < oldY)
-        {
-            anim.SetTrigger("down");
-            oldY = transform.position.y;
-        }
+            if (1==1)
+            {
+                if (transform.position.y > oldY)
+                {
+                    anim.SetBool("up", true);
+                    oldY = transform.position.y;
+                }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            anim.SetTrigger("left");
-        }
+                if (transform.position.y < oldY)
+                {
+                   // anim.SetTrigger("down");
+                   //oldY = transform.position.y;
+                }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            anim.SetTrigger("right");
+                if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                   // anim.SetTrigger("left");
+                }
+
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
+                {
+                   // anim.SetTrigger("right");
+                }
+            }
         }
-       
         
-        */
 
 
 

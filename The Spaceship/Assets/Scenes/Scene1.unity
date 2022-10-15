@@ -287,12 +287,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.15
+  m_fontSize: 147.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 500
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -511,6 +511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particle: {fileID: 3810940482126399214, guid: 191739636ca132a44a22240f28dd0fb7, type: 3}
+  saturn: {fileID: 3602581240922985976, guid: bf402ccd87091a143abdc4c49ca8ca01, type: 3}
 --- !u!1 &1443325335
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -640,7 +641,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.990566, g: 0.9740186, b: 0.9288893, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 12
   m_Range: 10
   m_SpotAngle: 30
@@ -855,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7884670314424672522, guid: 78525f8946c48024b842fd85d5546c27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.014
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7884670314424672522, guid: 78525f8946c48024b842fd85d5546c27, type: 3}
       propertyPath: m_LocalPosition.z

@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ScoreShower2 : MonoBehaviour
 {
 
     public TMP_Text scoretext;
     public SMovement a;
-    int score = 100;
+    int score = 10;
     int highscore;
 
     private void Start()
@@ -24,7 +25,6 @@ public class ScoreShower2 : MonoBehaviour
         if (a.isDead == true)
         {
             CancelInvoke("scorecounter2");
-            Debug.Log("it is working");
         }
     }
 
@@ -40,6 +40,11 @@ public class ScoreShower2 : MonoBehaviour
             highscore = score;
             PlayerPrefs.SetInt("Highscore", highscore);
         }
+
+        if (score >= 100)
+            SceneManager.LoadScene("Scene3");
+
+
     }
 
 
