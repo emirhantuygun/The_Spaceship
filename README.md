@@ -16,3 +16,4 @@ Your mission is clear: fly as far as you can without crashing into any obstacles
 <img src="https://github.com/emirhantuygun/The-Spaceship/blob/main/The%20Spaceship/Assets/Images%20For%20Github/pngwing.com.png" style="height:10%; width:10%;" alt="Play Store"></img>
 </a>
 
+[![Awesome](https://github.com/emirhantuygun/The-Spaceship/blob/main/The%20Spaceship/Assets/Images%20For%20Github/pngwing.com.png)](https://play.google.com/store/apps/details?id=com.SchismStudios.TheSpaceship)
