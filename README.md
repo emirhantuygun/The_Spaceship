@@ -1,5 +1,6 @@
-![Banner](The_Spaceship/Assets/Images_For_Github/özellik_grafiği.png)
+<img src="The%20Spaceship/Assets/Images%20For%20Github/%C3%B6zellik%20grafi%C4%9Fi.png" alt="Banner">
 <br/>
+
 # The Spaceship
 The Spaceship is a mobile game which I made using Unity.
 
@@ -11,6 +12,7 @@ Your mission is clear: fly as far as you can without crashing into any obstacles
 </div>
 
 
+<a href="https://play.google.com/store/apps/details?id=com.SchismStudios.TheSpaceship" target="_blank"> 
+<img src="https://github.com/emirhantuygun/The-Spaceship/blob/main/The%20Spaceship/Assets/Images%20For%20Github/pngwing.com.png" style="height:10%; width:10%;" alt="Play Store"></img>
+</a>
 
-
-[![Play Store](https://github.com/emirhantuygun/The-Spaceship/assets/114773586/b9488a61-d4e8-4db3-b43e-48132b3b04d0)](https://play.google.com/store/apps/details?id=com.SchismStudios.TheSpaceship)
